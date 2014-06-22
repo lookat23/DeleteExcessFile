@@ -186,6 +186,7 @@ void CDeleteExcessFileDlg::OnBnClickedExecutebutton()
     // TODO: Add your control notification handler code here
     CString strDir;
     m_pSelectDIrEdit->GetWindowText(strDir);
+    if(strDir.IsEmpty()) return;
     DisableAllButton();
     m_cOperation.FindBmpFile(m_vecType, strDir);
     EnableAllButton();
