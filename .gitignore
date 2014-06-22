@@ -19,3 +19,12 @@
 *.exe
 *.out
 *.app
+
+# MyConfig
+
+# dirs
+/Debug
+/DeleteExcessFile/Debug
+
+# files
+*.aps
